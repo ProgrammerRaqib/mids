@@ -51,17 +51,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 220px;
-  width: 320px;
+  height: 260px;
+  width: 390px;
   border-radius: 2%;
   box-shadow: #282c34;
   background-color: rgb(255, 255, 255);
 }
 
-button{
+.smallBTN{
   display: flex;
   float: right;
-  flex-direction: column;
   height: 20px;
   width: 50px;
   border-radius: 25px; 
@@ -82,4 +81,13 @@ button{
   border: 3px solid black;
   border-radius: 20px;
   background-color:rgb(206, 208, 210);
+}
+
+.bigBTN{
+
+  width: 140px;
+  height: 35px;
+  background-color: orange;
+  color: black;
+  border-radius: 4px;
 }
