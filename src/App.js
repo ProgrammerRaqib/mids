@@ -7,6 +7,18 @@ function App() {
 <div className="Maindiv">
 
     <div className='innerDiv'>
+      
+      <div>
+        
+        <h2>CountDown & Light</h2> <button><div> <div className='Butn'></div></div></button>
+        <h2>Switch</h2>
+       
+        <div className='Line'></div>
+       
+
+
+
+      </div>
 
     </div>
 

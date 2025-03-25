@@ -48,9 +48,38 @@
 }
 
 .innerDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 220px;
   width: 320px;
   border-radius: 2%;
   box-shadow: #282c34;
   background-color: rgb(255, 255, 255);
+}
+
+button{
+  display: flex;
+  float: right;
+  flex-direction: column;
+  height: 20px;
+  width: 50px;
+  border-radius: 25px; 
+  background-color: orangered;
+}
+
+.Butn{
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  background-color:white;
+}
+
+.Line{
+
+  width: 280px;
+  height: 30px;
+  border: 3px solid black;
+  border-radius: 20px;
+  background-color:rgb(206, 208, 210);
 }
