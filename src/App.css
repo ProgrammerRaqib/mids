@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.Maindiv{
+  height: 550px;
+  width: 1270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: rgb(206, 208, 210);
+}
+
+.innerDiv{
+  height: 220px;
+  width: 320px;
+  border-radius: 2%;
+  box-shadow: #282c34;
+  background-color: rgb(255, 255, 255);
+}
